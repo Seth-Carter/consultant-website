@@ -15,8 +15,16 @@ export default function Home() {
       </Head>
       <main>
         <section className="border-4 min-h-64 grid grid-cols-1 md:grid-cols-2">
-          <div className="flex justify-center">
-            <h1>Bio</h1>
+          <div className="px-4">
+            <h1 className="font-bold text-xl my-4">
+              This is a cool headline about me
+            </h1>
+            <p className="font-serif text-lg">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem odit illum laboriosam tempore cumque aut molestiae
+              corrupti quae, quis enim tenetur incidunt at dolorum dignissimos!
+              Tenetur dolores non quis nobis.
+            </p>
           </div>
           <div className="flex justify-center items-center">
             <div className="w-64 h-64 overflow-hidden rounded-[50%]">
